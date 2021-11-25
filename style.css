@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  padding: 0 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.card img {
+  width: 100%;
+}

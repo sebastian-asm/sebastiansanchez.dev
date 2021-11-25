@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "web": "Icassh Propiedades",
+    "description": "",
+    "link": "https://icasshpropiedades.cl",
+    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
+    "screenshot": "",
+    "category": "enabled"
+  },
+  {
+    "id": 2,
+    "web": "Carlos Moreno Inmobiliaria",
+    "description": "",
+    "link": "https://carlosmoreno.com.ar",
+    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
+    "screenshot": "./src/assets/carlosmoreno.png",
+    "category": "enabled"
+  }
+]
