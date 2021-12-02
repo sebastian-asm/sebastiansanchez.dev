@@ -105,53 +105,39 @@
       <section class="container">
         <div class="enabled">
           <h2>Sitios online</h2>
-          <div id="enabled"></div>
+          <div class="grid" id="enabled"></div>
         </div>
-
-        <div class="disabled" id="disabled">
+        <div class="disabled">
           <h2>Sitios offline</h2>
+          <div class="grid" id="disabled"></div>
+        </div>
+        <div class="proyect">
+          <h2>Proyectos</h2>
+          <div class="grid" id="proyect"></div>
         </div>
 
-        <div class="proyect" id="proyect">
-          <h2>Proyectos</h2>
-        </div>
+        <section>
+          tecnologias
+        </section>
       </section>
 
-      <!-- <section class="grid">
+      <!-- Template cards -->
+      <template id="template-card">
         <article class="card">
-          <img src="./src/assets/carlosmoreno.png" alt="" />
+          <img src="" alt="" />
+          <div class="card-info">
+            <h3 id="title"></h3>
+            <p id="description"></p>
+            <p class="card-stack" id="stack"></p>
+          </div>
         </article>
-        <article class="card">
-          <img src="./src/assets/carlosmoreno.png" alt="" />
-        </article>
-        <article class="card">
-          <img src="./src/assets/carlosmoreno.png" alt="" />
-        </article>
-        <article class="card">
-          <img src="./src/assets/carlosmoreno.png" alt="" />
-        </article>
-        <article class="card">
-          <img src="./src/assets/carlosmoreno.png" alt="" />
-        </article>
-        <article class="card">
-          <img src="./src/assets/carlosmoreno.png" alt="" />
-        </article>
-      </section> -->
+      </template>
     </main>
 
-    <!-- <template id="template-post">
-        <div class="post">
-          <img src="" alt="" />
-          <p class="fecha-post">Publicado el <span id="fecha-post"></span></p>
-          <h2 id="titulo"></h2>
-          <p id="descripcion"></p>
-        </div>
-      </template> -->
-
     <footer>
-      <p><span id="date">2021</span> | Sebastián Sánchez - Portafolio 🚀</p>
+      <p><span id="date"></span> | Sebastián Sánchez - Portafolio 🚀</p>
     </footer>
 
-    <!-- <script src="app.js"></script> -->
+    <script src="app.js"></script>
   </body>
 </html>

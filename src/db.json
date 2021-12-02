@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "web": "Icassh Propiedades",
-    "description": "",
-    "link": "https://icasshpropiedades.cl",
-    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
-    "img": "",
+    "title": "Icassh Propiedades",
+    "description": "test",
+    "web": "https://icasshpropiedades.cl",
+    "stack": ["ReactJS", "Strapi", "MongoDB", "DigitalOcean"],
+    "img": "./src/assets/images/web/icasshpropiedades.png",
     "category": "enabled"
   },
   {
     "id": 2,
-    "web": "Carlos Moreno Inmobiliaria",
+    "title": "Carlos Moreno Inmobiliaria",
     "description": "",
-    "link": "https://carlosmoreno.com.ar",
-    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
-    "img": "./src/assets/carlosmoreno.png",
+    "web": "https://carlosmoreno.com.ar",
+    "stack": ["ReactJS", "Strapi", "MongoDB", "DigitalOcean"],
+    "img": "./src/assets/images/web/carlosmoreno.png",
     "category": "enabled"
   },
   {
-    "id": 3,
-    "web": "Carlos Moreno Inmobiliaria 3",
-    "description": "",
-    "link": "https://carlosmoreno.com.ar",
-    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
-    "img": "./src/assets/carlosmoreno.png",
+    "id": 2,
+    "title": "Carlos Moreno Inmobiliaria",
+    "description": "otro test",
+    "web": "https://carlosmoreno.com.ar",
+    "stack": ["ReactJS", "MongoDB", "DigitalOcean"],
+    "img": "./src/assets/images/web/carlosmoreno.png",
     "category": "disabled"
   },
   {
-    "id": 4,
-    "web": "Carlos Moreno Inmobiliaria 4",
+    "id": 2,
+    "title": "Carlos Moreno Inmobiliaria",
     "description": "",
-    "link": "https://carlosmoreno.com.ar",
-    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
-    "img": "./src/assets/carlosmoreno.png",
+    "web": "https://carlosmoreno.com.ar",
+    "stack": ["ReactJS"],
+    "img": "./src/assets/images/web/carlosmoreno.png",
     "category": "proyect"
   }
 ]
