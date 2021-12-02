@@ -1,8 +1,10 @@
 :root {
-  --text-sm: 1rem;
-  --text-base: 1.5rem;
-  --text-lg: 2.5rem;
-  --text-xl: 3.5rem;
+  --text-sm: 1.5rem;
+  --text-base: 1.8rem;
+  --text-lg: 2.8rem;
+  --text-xl: 3.8rem;
+  --text-color-base: #1f2937;
+  --text-color-secondary: #f9fafb;
 }
 
 * {
@@ -16,8 +18,9 @@ html {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: var(--text-base);
+  color: var(--text-color-base);
 }
 
 header,
@@ -53,6 +56,7 @@ header nav ul li img {
 /* MAIN */
 h1 {
   font-size: var(--text-xl);
+  margin: 1.5rem 0;
 }
 
 h2 {
@@ -60,7 +64,7 @@ h2 {
 }
 
 p {
-  line-height: 2.5rem;
+  line-height: 3rem;
 }
 
 .presentation {
@@ -86,7 +90,13 @@ p {
 }
 
 .presentation_text {
-  color: white;
+  color: var(--text-color-secondary);
+}
+
+.enabled,
+.disabled,
+.proyect {
+  margin: 4rem 0;
 }
 
 .grid {
@@ -103,8 +113,23 @@ p {
   width: 100%;
 }
 
+/* FOOTER */
+footer {
+  font-size: var(--text-sm);
+  margin: 5rem auto;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
+  h1 {
+    margin-top: 0;
+  }
+
   .presentation_info {
     flex-direction: row;
+  }
+
+  .presentation_text {
+    margin-left: 4rem;
   }
 }
