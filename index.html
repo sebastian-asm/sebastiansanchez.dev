@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,10 +17,70 @@
     <title>Sebastián Sánchez - Portafolio</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <h3>Sebastián Sánchez</h3>
+      <nav>
+        <ul>
+          <!-- <li id="dark">Modo oscurso</li> -->
+          <li>
+            <a href="" target="_blank" rel="noopenner">
+              <img
+                src="./src/assets/icons/github-icon.svg"
+                alt="Github"
+                title="Github"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopenner">
+              <img
+                src="./src/assets/icons/linkedin-icon.svg"
+                alt="LinkedIn"
+                title="LinkedIn"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <main class="container">
-      <section class="grid">
+    <main>
+      <section class="presentation">
+        <div class="presentation_info">
+          <div class="presentation_info_avatar">
+            <img
+              src="./src/assets/sebastian_sanchez.jpg"
+              alt="Sebastián Sánchez"
+            />
+          </div>
+          <div class="presentation_text">
+            <h1>Desarrollador web</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+              voluptatibus ab consequatur ipsum voluptas saepe iste animi
+              suscipit? Illo quia consectetur tempora quisquam. Repellendus,
+              voluptatum? Alias optio eaque ipsum molestias!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div>
+          <h2>Sitios online</h2>
+          <div class="enabled" id="enabled"></div>
+        </div>
+
+        <div id="disabled">
+          <h2>Sitios offline</h2>
+        </div>
+
+        <div id="proyect">
+          <h2>Proyectos</h2>
+        </div>
+      </section>
+
+      <!-- <section class="grid">
         <article class="card">
           <img src="./src/assets/carlosmoreno.png" alt="" />
         </article>
@@ -29,24 +90,29 @@
         <article class="card">
           <img src="./src/assets/carlosmoreno.png" alt="" />
         </article>
-      </section>
-
-      <section>
-        <h2>Sitios online</h2>
-        <div class="enabled" id="enabled"></div>
-      </section>
-
-      <section id="disabled">
-        <h2>Sitios offline</h2>
-      </section>
-
-      <section id="proyect">
-        <h2>Proyectos</h2>
-      </section>
+        <article class="card">
+          <img src="./src/assets/carlosmoreno.png" alt="" />
+        </article>
+        <article class="card">
+          <img src="./src/assets/carlosmoreno.png" alt="" />
+        </article>
+        <article class="card">
+          <img src="./src/assets/carlosmoreno.png" alt="" />
+        </article>
+      </section> -->
     </main>
+
+    <!-- <template id="template-post">
+        <div class="post">
+          <img src="" alt="" />
+          <p class="fecha-post">Publicado el <span id="fecha-post"></span></p>
+          <h2 id="titulo"></h2>
+          <p id="descripcion"></p>
+        </div>
+      </template> -->
 
     <footer>Sebastián Sánchez <span id="date"></span></footer>
 
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
   </body>
 </html>

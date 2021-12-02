@@ -5,7 +5,7 @@
     "description": "",
     "link": "https://icasshpropiedades.cl",
     "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
-    "screenshot": "",
+    "img": "",
     "category": "enabled"
   },
   {
@@ -14,7 +14,25 @@
     "description": "",
     "link": "https://carlosmoreno.com.ar",
     "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
-    "screenshot": "./src/assets/carlosmoreno.png",
+    "img": "./src/assets/carlosmoreno.png",
     "category": "enabled"
+  },
+  {
+    "id": 3,
+    "web": "Carlos Moreno Inmobiliaria 3",
+    "description": "",
+    "link": "https://carlosmoreno.com.ar",
+    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
+    "img": "./src/assets/carlosmoreno.png",
+    "category": "disabled"
+  },
+  {
+    "id": 4,
+    "web": "Carlos Moreno Inmobiliaria 4",
+    "description": "",
+    "link": "https://carlosmoreno.com.ar",
+    "stack": ["ReactJS", "CMS Strapi", "MongoDB", "DigitalOcean"],
+    "img": "./src/assets/carlosmoreno.png",
+    "category": "proyect"
   }
 ]

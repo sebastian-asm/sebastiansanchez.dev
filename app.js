@@ -3,11 +3,16 @@
     date = d.getElementById('date'),
     enabled = d.getElementById('enabled'),
     disabled = d.getElementById('disabled'),
-    proyect = d.getElementById('proyect');
+    proyect = d.getElementById('proyect'),
+    dark = d.getElementById('dark');
 
-  // footer
-  date.textContent = new Date().getFullYear();
+  // header
+  dark.addEventListener('click', () => {
+    console.log('clic!');
+    localStorage.setItem('dark-mode', 'ok');
+  });
 
+  // main
   const getData = async () => {
     try {
       const resp = await fetch('./src/db.json'),
@@ -24,29 +29,20 @@
 
   if (data) {
     data.forEach((item) => {
+      const { web, img, category } = item;
       let article = d.createElement('article');
 
-      if (item.category === 'enabled') {
-        article.innerHTML = `
-          <p>${item.web}</p>
-        `;
+      article.innerHTML = `
+        <p>${web}</p>
+        <img src="${img}" style="width: 120px" />
+      `;
 
-        // <img src="${item.screenshot}" />
-        //   <ul>
-        //   ${item.stack.map((tech) => `<li>${tech}</li>`)}
-        // </ul>
-        enabled.appendChild(article);
-      }
-
-      if (item.category === 'disabled') {
-        article.innerHTML = `<p>${item.web}</p>`;
-        disabled.appendChild(article);
-      }
-
-      if (item.category === 'proyect') {
-        article.innerHTML = `<p>${item.web}</p>`;
-        proyect.appendChild(article);
-      }
+      if (category === 'enabled') enabled.appendChild(article);
+      if (category === 'disabled') disabled.appendChild(article);
+      if (category === 'proyect') proyect.appendChild(article);
     });
   }
+
+  // footer
+  date.textContent = new Date().getFullYear();
 })();
