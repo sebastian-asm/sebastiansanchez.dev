@@ -1,13 +1,15 @@
-(async () => {
+import { icon } from './constants.js';
+
+(() => {
   const d = document,
     date = d.getElementById('date'),
-    darkMode = d.getElementById('dark-mode');
+    themeMode = d.getElementById('theme-mode');
 
   date.textContent = new Date().getFullYear();
 
   async function getData() {
     try {
-      const resp = await fetch('./src/db.json'),
+      const resp = await fetch('./assets/db/db.json'),
         result = await resp.json();
       return result;
     } catch {
@@ -15,12 +17,14 @@
     }
   }
 
-  function renderCards(data) {
+  async function renderCards() {
     const card = d.getElementById('template-card').content,
       fragment = d.createDocumentFragment(),
       enabled = d.getElementById('enabled'),
       disabled = d.getElementById('disabled'),
       proyect = d.getElementById('proyect');
+
+    const data = await getData();
 
     if (data) {
       data.forEach((item) => {
@@ -65,16 +69,15 @@
     localStorage.setItem('theme', theme);
   }
 
-  function localInitialTheme() {
+  function initialApp() {
     const localConfig = localStorage.getItem('theme');
-    if (localConfig === 'dark') d.body.classList.toggle('dark-mode');
     if (localConfig === 'light') d.body.classList.toggle('light-mode');
+    if (localConfig === 'dark') d.body.classList.toggle('dark-mode');
+
+    renderCards();
   }
 
-  // initial app
-  d.addEventListener('DOMContentLoaded', localInitialTheme);
-  darkMode.addEventListener('click', themeHandler);
-
-  const data = await getData();
-  renderCards(data);
+  // app
+  d.addEventListener('DOMContentLoaded', initialApp);
+  themeMode.addEventListener('click', themeHandler);
 })();

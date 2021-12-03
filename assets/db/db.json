@@ -5,7 +5,7 @@
     "description": "test",
     "web": "https://icasshpropiedades.cl",
     "stack": ["ReactJS", "Strapi", "MongoDB", "DigitalOcean"],
-    "img": "./src/assets/images/web/icasshpropiedades.png",
+    "img": "./assets/images/web/icasshpropiedades.png",
     "category": "enabled"
   },
   {
@@ -14,7 +14,7 @@
     "description": "",
     "web": "https://carlosmoreno.com.ar",
     "stack": ["ReactJS", "Strapi", "MongoDB", "DigitalOcean"],
-    "img": "./src/assets/images/web/carlosmoreno.png",
+    "img": "./assets/images/web/carlosmoreno.png",
     "category": "enabled"
   },
   {
@@ -23,7 +23,7 @@
     "description": "otro test",
     "web": "https://carlosmoreno.com.ar",
     "stack": ["ReactJS", "MongoDB", "DigitalOcean"],
-    "img": "./src/assets/images/web/carlosmoreno.png",
+    "img": "./assets/images/web/carlosmoreno.png",
     "category": "disabled"
   },
   {
@@ -32,7 +32,7 @@
     "description": "",
     "web": "https://carlosmoreno.com.ar",
     "stack": ["ReactJS"],
-    "img": "./src/assets/images/web/carlosmoreno.png",
+    "img": "./assets/images/web/carlosmoreno.png",
     "category": "proyect"
   }
 ]
