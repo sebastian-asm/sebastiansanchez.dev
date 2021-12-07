@@ -1,4 +1,4 @@
-import { icon } from './constants.js';
+import { iconMoon, iconSun } from './constants.js';
 
 (() => {
   const d = document,
@@ -55,24 +55,24 @@ import { icon } from './constants.js';
   }
 
   function themeHandler() {
-    let theme;
-    const { matches } = matchMedia('(prefers-color-scheme: dark)');
+    d.body.classList.toggle('dark-mode');
 
-    if (matches) {
-      d.body.classList.toggle('light-mode');
-      theme = d.body.classList.contains('light-mode') ? 'light' : 'dark';
+    if (d.body.classList.contains('dark-mode')) {
+      localStorage.setItem('theme', 'dark');
+      d.getElementById('theme-mode').innerHTML = iconSun;
     } else {
-      d.body.classList.toggle('dark-mode');
-      theme = d.body.classList.contains('dark-mode') ? 'dark' : 'light';
+      localStorage.removeItem('theme');
+      d.getElementById('theme-mode').innerHTML = iconMoon;
     }
-
-    localStorage.setItem('theme', theme);
   }
 
   function initialApp() {
-    const localConfig = localStorage.getItem('theme');
-    if (localConfig === 'light') d.body.classList.toggle('light-mode');
-    if (localConfig === 'dark') d.body.classList.toggle('dark-mode');
+    if (localStorage.getItem('theme')) {
+      d.body.classList.add('dark-mode');
+      d.getElementById('theme-mode').innerHTML = iconSun;
+    } else {
+      d.getElementById('theme-mode').innerHTML = iconMoon;
+    }
 
     renderCards();
   }
