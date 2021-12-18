@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--color5);
+  font-size: var(--text-base);
+  padding: 5rem 0;
+  text-align: center;
+
+  p,
+  span {
+    line-height: 3rem;
+  }
+
+  span {
+    font-weight: 700;
+  }
+}

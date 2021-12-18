@@ -1,0 +1,191 @@
+main {
+  .presentation {
+    background-color: var(--color5);
+    position: relative;
+
+    .presentation_info {
+      @extend .container-base;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+
+      p {
+        line-height: 3rem;
+      }
+
+      .presentation_info_avatar {
+        width: 100%;
+        text-align: center;
+
+        img {
+          width: 20rem;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .presentation_text {
+      h1 {
+        color: var(--color4);
+        font-size: var(--text-xl);
+        margin: 1.5rem 0;
+      }
+    }
+  }
+
+  .wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    svg {
+      position: relative;
+      display: block;
+      width: calc(119% + 1.3px);
+      height: 5rem;
+    }
+
+    .shape-fill {
+      fill: var(--color5);
+    }
+  }
+
+  .disabled,
+  .proyect {
+    margin: 7rem 0;
+  }
+
+  .enabled {
+    margin: 14rem 0 5rem 0;
+  }
+
+  .container {
+    @extend .container-base;
+
+    h2 {
+      color: var(--color6);
+      font-size: var(--text-lg);
+      margin-bottom: 3rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+      gap: 4rem;
+    }
+
+    .card {
+      background-color: var(--color1);
+      border-radius: 1.5rem;
+      overflow: hidden;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+      .card-image {
+        position: relative;
+
+        img {
+          height: 18rem;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        .card-links {
+          position: absolute;
+          right: 0.5rem;
+          top: 13.5rem;
+          border-radius: 1rem;
+          background-color: var(--color3);
+
+          a {
+            text-decoration: none;
+
+            svg {
+              margin: 0.3rem 0.5rem 0.1rem 0.5rem;
+              stroke: var(--color6);
+              height: 3rem;
+              width: 3rem;
+            }
+          }
+        }
+      }
+
+      .card-info {
+        padding: 1.5rem;
+
+        h3 {
+          color: var(--color2);
+        }
+
+        p {
+          color: var(--color7);
+          line-height: 2.5rem;
+          margin-top: 1.5rem;
+        }
+
+        .card-stack {
+          margin-top: 1.5rem;
+          display: flex;
+          flex-wrap: wrap;
+
+          span {
+            font-size: var(--text-xm);
+            border-radius: 1rem;
+            background-color: var(--color3);
+            padding: 0 0.5rem;
+            margin: 0.5rem 0.5rem 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  .container-stack-tech {
+    background: var(--color6);
+  }
+
+  .wave-stack-tech {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 5rem;
+    }
+
+    .shape-fill {
+      fill: var(--color3);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    .presentation {
+      .presentation_info {
+        flex-direction: row;
+      }
+
+      .presentation_text {
+        margin-left: 4rem;
+      }
+    }
+
+    .wave,
+    .wave-stack-tech {
+      svg {
+        height: 10rem;
+      }
+    }
+  }
+}

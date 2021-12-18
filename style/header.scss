@@ -1,0 +1,32 @@
+header {
+  background-color: var(--color6);
+
+  .container {
+    @extend .container-base;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+
+        li {
+          margin: 0 0.5rem;
+          cursor: pointer;
+
+          svg {
+            stroke: var(--color1);
+            transition: var(--transition);
+
+            &:hover {
+              stroke: var(--color4);
+            }
+          }
+        }
+      }
+    }
+  }
+}
