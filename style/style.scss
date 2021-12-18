@@ -4,18 +4,17 @@
   --text-base: 1.8rem;
   --text-lg: 2.8rem;
   --text-xl: 3.8rem;
-  --color-principal: #2e4c6d;
-  --color-secondary: #396eb0;
-  --color-alt: #daddfc;
-  --color-aux: #fc997c;
-  --bg-color: #fff;
+  --color-one: #1d3557;
+  --color-two: #457b9d;
+  --color-three: #a8dadc;
+  --color-four: #f1faee;
+  --color-five: #e63946;
   --transition: 0.2s all;
 }
 
 :root body.dark-mode {
-  --color-principal: #222831;
-  --color-secondary: #ffd369;
-  --bg-color: #393e46;
+  --bgColor: #191919;
+  --bgColorAlt: #2d4263;
 }
 
 *,
@@ -33,8 +32,8 @@ html {
 body {
   font-family: 'Outfit', sans-serif;
   font-size: var(--text-base);
-  color: var(--color-principal);
-  background-color: var(--bg-color);
+  color: var(--color-one);
+  background-color: var(--bgColor);
   transition: var(--transition);
 }
 
@@ -42,7 +41,7 @@ header,
 .container-card,
 .presentation_info,
 footer {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -53,6 +52,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 2rem auto;
+  background-color: var(--bgColorAlt);
 
   nav {
     ul {
@@ -64,11 +64,11 @@ header {
         cursor: pointer;
 
         svg {
-          stroke: var(--color-principal);
+          stroke: var(--color-one);
           transition: var(--transition);
 
           &:hover {
-            stroke: var(--color-secondary);
+            stroke: var(--color-five);
           }
         }
       }
@@ -92,7 +92,7 @@ p {
 }
 
 .presentation {
-  background-color: var(--color-principal);
+  background-color: var(--bgColorAlt);
   padding: 0 2rem;
   position: relative;
 }
@@ -115,14 +115,14 @@ p {
 }
 
 .presentation_text {
-  color: var(--color-alt);
+  color: var(--color-four);
 
   h1 {
-    color: var(--color-aux);
+    color: var(--color-five);
   }
 }
 
-.custom-shape-divider-top {
+.wave {
   position: absolute;
   left: 0;
   width: 100%;
@@ -133,11 +133,11 @@ p {
     position: relative;
     display: block;
     width: calc(119% + 1.3px);
-    height: 40px;
+    height: 5rem;
   }
 
   .shape-fill {
-    fill: var(--color-principal);
+    fill: var(--bgColorAlt);
   }
 }
 
@@ -156,32 +156,82 @@ p {
   gap: 4rem;
 }
 
+// cards
 .card {
+  background-color: var(--color-four);
   border-radius: 1.5rem;
   overflow: hidden;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
-  img {
-    width: 100%;
+  .card-image {
+    position: relative;
+
+    img {
+      height: 18rem;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card-links {
+      position: absolute;
+      right: 0.5rem;
+      top: 13.5rem;
+      background-color: var(--color-five);
+      border-radius: 1rem;
+
+      a {
+        text-decoration: none;
+
+        svg {
+          margin: 0.3rem 0.3rem 0.1rem 0.3rem;
+          stroke: white;
+        }
+      }
+    }
+  }
+
+  .card-info {
+    padding: 1.5rem;
+  }
+
+  .card-stack {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    span {
+      font-size: var(--text-xm);
+      border-radius: 1.5rem;
+      background-color: var(--color-three);
+      padding: 0 0.5rem;
+      margin: 0.5rem 0.5rem 0 0;
+    }
   }
 }
 
-.card-info {
-  padding: 1.5rem;
+// stack tech
+.container-stack-tech {
+  background: var(--color-two);
 }
 
-.card-stack {
-  margin-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
+.wave-stack-tech {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 
-  span {
-    font-size: var(--text-xm);
-    border-radius: 1.5rem;
-    background-color: var(--color-alt);
-    padding: 0 0.5rem;
-    margin: 0.5rem 0.5rem 0 0;
+  svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 5rem;
+  }
+
+  .shape-fill {
+    fill: var(--color-three);
   }
 }
 
@@ -191,17 +241,6 @@ footer {
   margin: 5rem auto;
   text-align: center;
 }
-
-// media querie
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --bg-color: black;
-//   }
-
-//   :root body.light-mode {
-//     --bg-color: white;
-//   }
-// }
 
 @media (min-width: 768px) {
   h1 {
@@ -220,9 +259,10 @@ footer {
     margin-top: 12rem;
   }
 
-  .custom-shape-divider-top {
+  .wave,
+  .wave-stack-tech {
     svg {
-      height: 80px;
+      height: 10rem;
     }
   }
 }

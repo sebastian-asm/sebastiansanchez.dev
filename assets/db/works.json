@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Icassh Propiedades",
+    "description": "Sitio para corredora de propiedades en Chile, lo que le permite administrar sus ventas y arriendos ya sea de casas, departamentos y terrenos.",
+    "web": "https://icasshpropiedades.cl",
+    "github": null,
+    "stack": ["ReactJS", "Strapi", "MongoDB", "Tailwindcss", "DigitalOcean"],
+    "img": "./assets/images/works/icasshpropiedades.png",
+    "category": "enabled"
+  },
+  {
+    "title": "Carlos Moreno Inmobiliaria",
+    "description": "",
+    "web": "https://carlosmoreno.com.ar",
+    "github": "github 2",
+    "stack": ["ReactJS", "Strapi", "MongoDB", "Tailwindcss", "DigitalOcean"],
+    "img": "./assets/images/works/carlosmoreno.png",
+    "category": "enabled"
+  },
+  {
+    "title": "Jordanes Abogados",
+    "description": "otro test",
+    "web": "https://jordanesabogados.com.ar/",
+    "github": null,
+    "stack": ["NextJS", "SCSS", "Vercel"],
+    "img": "./assets/images/works/jordanesabogados.png",
+    "category": "enabled"
+  },
+  {
+    "title": "Wireless Speed",
+    "description": "",
+    "web": "https://wireless-speed.com.ar/",
+    "github": null,
+    "stack": ["Angular", "Bootstrap"],
+    "img": "./assets/images/works/wireless-speed.png",
+    "category": "enabled"
+  },
+  {
+    "title": "Semana del Descanso",
+    "description": "",
+    "web": "https://wireless-speed.com.ar/",
+    "github": null,
+    "stack": ["Angular", "Bootstrap"],
+    "img": "./assets/images/works/wireless-speed.png",
+    "category": "enabled"
+  },
+  {
+    "title": "Tu Ensayo",
+    "description": "",
+    "web": null,
+    "github": "https://tuensayo.org/",
+    "stack": ["Angular", "Bootstrap", "ExpressJS", "MongoDB"],
+    "img": "./assets/images/works/wireless-speed.png",
+    "category": "disabled"
+  },
+  {
+    "title": "Taller de Cortinas",
+    "description": "",
+    "web": null,
+    "github": null,
+    "stack": ["Angular", "Bootstrap"],
+    "img": "./assets/images/works/wireless-speed.png",
+    "category": "disabled"
+  }
+]
