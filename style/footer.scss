@@ -1,15 +1,24 @@
 footer {
   background-image: linear-gradient(to top, var(--color5), var(--color6));
-  font-size: var(--text-base);
-  padding: 5rem 0;
-  text-align: center;
 
-  p,
-  span {
-    line-height: 3rem;
-  }
+  .container {
+    @extend .container-base;
+    font-size: var(--text-base);
+    padding-bottom: 4rem;
+    padding-top: 8rem;
+    text-align: center;
+    color: var(--color3);
 
-  span {
-    font-weight: 700;
+    p,
+    span {
+      line-height: 3rem;
+    }
+
+    span {
+      font-size: var(--text-sm);
+      display: block;
+      font-weight: 700;
+      margin-top: 1.5rem;
+    }
   }
 }
