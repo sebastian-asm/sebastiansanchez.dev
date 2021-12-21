@@ -46,7 +46,7 @@ function renderLinks(item, card) {
   if (item.web) {
     const a = document.createElement('a');
     a.href = item.web;
-    a.title = 'Abrir';
+    a.title = 'Visitar sitio';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
     a.innerHTML = iconLink;
@@ -56,7 +56,7 @@ function renderLinks(item, card) {
   if (item.github) {
     const a = document.createElement('a');
     a.href = item.github;
-    a.title = 'Github';
+    a.title = 'Ver código';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
     a.innerHTML = iconGithub;

@@ -1,6 +1,10 @@
 header {
   background-color: var(--color5);
 
+  h3 {
+    color: var(--color1);
+  }
+
   .container {
     @extend .container-base;
     display: flex;
@@ -18,11 +22,11 @@ header {
           cursor: pointer;
 
           svg {
-            stroke: var(--color1);
+            stroke: var(--color3);
             transition: var(--transition);
 
             &:hover {
-              stroke: var(--color4);
+              stroke: var(--color1);
             }
           }
         }

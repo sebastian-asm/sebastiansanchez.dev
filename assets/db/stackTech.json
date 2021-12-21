@@ -21,6 +21,14 @@
       "logo": "./assets/images/logos/nextjs.svg"
     },
     {
+      "name": "Git",
+      "logo": "./assets/images/logos/git.svg"
+    },
+    {
+      "name": "Github",
+      "logo": "./assets/images/logos/github.svg"
+    },
+    {
       "name": "Webpack",
       "logo": "./assets/images/logos/webpack.svg"
     },
@@ -33,8 +41,16 @@
       "logo": "./assets/images/logos/tailwindcss.svg"
     },
     {
+      "name": "Bootstrap",
+      "logo": "./assets/images/logos/bootstrap.svg"
+    },
+    {
       "name": "Vercel",
       "logo": "./assets/images/logos/vercel.svg"
+    },
+    {
+      "name": "Netlify",
+      "logo": "./assets/images/logos/netlify.svg"
     }
   ],
   "backend": [
@@ -43,16 +59,8 @@
       "logo": "./assets/images/logos/nodejs.svg"
     },
     {
-      "name": "DigitalOcean",
-      "logo": "./assets/images/logos/digital-ocean.svg"
-    },
-    {
-      "name": "Firebase",
-      "logo": "./assets/images/logos/firebase.svg"
-    },
-    {
-      "name": "Heroku",
-      "logo": "./assets/images/logos/heroku.svg"
+      "name": "ExpressJS",
+      "logo": "./assets/images/logos/express.svg"
     },
     {
       "name": "MongoDB",
@@ -71,8 +79,20 @@
       "logo": "./assets/images/logos/graphql.svg"
     },
     {
+      "name": "Firebase",
+      "logo": "./assets/images/logos/firebase.svg"
+    },
+    {
       "name": "Strapi",
       "logo": "./assets/images/logos/strapi.svg"
+    },
+    {
+      "name": "DigitalOcean",
+      "logo": "./assets/images/logos/digital-ocean.svg"
+    },
+    {
+      "name": "Heroku",
+      "logo": "./assets/images/logos/heroku.svg"
     }
   ]
 }
