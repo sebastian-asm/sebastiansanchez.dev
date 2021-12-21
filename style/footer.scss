@@ -1,5 +1,5 @@
 footer {
-  background-image: linear-gradient(to top, var(--color5), var(--color6));
+  background-color: var(--color-bg-strong);
 
   .container {
     @extend .container-base;
@@ -7,18 +7,18 @@ footer {
     padding-bottom: 4rem;
     padding-top: 8rem;
     text-align: center;
-    color: var(--color3);
+    color: var(--color-text);
 
     p,
     span {
       line-height: 3rem;
     }
 
-    span {
-      font-size: var(--text-sm);
-      display: block;
-      font-weight: 700;
+    .version {
       margin-top: 1.5rem;
+      font-size: var(--text-xm);
+      font-weight: 700;
+      text-transform: uppercase;
     }
   }
 }

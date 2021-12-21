@@ -1,8 +1,8 @@
 header {
-  background-color: var(--color5);
+  background-color: var(--color-bg-strong);
 
   h3 {
-    color: var(--color1);
+    color: var(--color-text-strong);
   }
 
   .container {
@@ -22,11 +22,11 @@ header {
           cursor: pointer;
 
           svg {
-            stroke: var(--color3);
+            stroke: var(--color-text);
             transition: var(--transition);
 
             &:hover {
-              stroke: var(--color1);
+              stroke: var(--color-text-light);
             }
           }
         }

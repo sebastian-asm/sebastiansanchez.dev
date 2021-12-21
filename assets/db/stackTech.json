@@ -75,6 +75,10 @@
       "logo": "./assets/images/logos/postgresql.svg"
     },
     {
+      "name": "JSON",
+      "logo": "./assets/images/logos/json.svg"
+    },
+    {
       "name": "GraphQL",
       "logo": "./assets/images/logos/graphql.svg"
     },

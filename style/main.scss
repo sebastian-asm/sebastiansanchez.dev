@@ -1,6 +1,10 @@
 main {
   .presentation {
-    background-image: linear-gradient(to top, var(--color6), var(--color5));
+    background-image: linear-gradient(
+      to top,
+      var(--color-bg-light),
+      var(--color-bg-strong)
+    );
     position: relative;
 
     .presentation_info {
@@ -8,8 +12,8 @@ main {
       display: flex;
       align-items: center;
       flex-direction: column;
-      padding-top: 5rem;
-      padding-bottom: 5rem;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
 
       .presentation_info_avatar {
         width: 100%;
@@ -24,17 +28,17 @@ main {
 
     .presentation_text {
       h1 {
-        color: var(--color1);
+        color: var(--color-text-strong);
         font-size: var(--text-xl);
         margin: 1.5rem 0;
       }
 
       p {
-        color: var(--color3);
+        color: var(--color-text);
         line-height: 3rem;
 
         strong {
-          color: var(--color1);
+          color: var(--color-text-light);
         }
       }
     }
@@ -55,7 +59,7 @@ main {
     }
 
     .shape-fill {
-      fill: var(--color6);
+      fill: var(--color-bg-light);
     }
   }
 
@@ -72,7 +76,7 @@ main {
     @extend .container-base;
 
     h2 {
-      color: var(--color6);
+      color: var(--color-subtitle);
       font-size: var(--text-lg);
       margin-bottom: 3rem;
     }
@@ -84,7 +88,7 @@ main {
     }
 
     .card {
-      background-color: var(--color4);
+      background-color: var(--color-card-bg);
       border-radius: 1.5rem;
       overflow: hidden;
       box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
@@ -104,21 +108,16 @@ main {
           right: 0.5rem;
           top: 13.5rem;
           border-radius: 1rem;
-          background-color: var(--color3);
+          background-color: var(--color-card-bg-link);
 
           a {
             text-decoration: none;
 
             svg {
               margin: 0.3rem 0.5rem 0.1rem 0.5rem;
-              stroke: var(--color6);
+              stroke: var(--color-text-light);
               height: 3rem;
               width: 3rem;
-              transition: var(--transition);
-
-              &:hover {
-                stroke: var(--color5);
-              }
             }
           }
         }
@@ -126,16 +125,15 @@ main {
 
       .card-info {
         padding: 1.5rem;
-        color: var(--color2);
+        color: var(--color-text-dark-strong);
 
         h5 {
-          // color: var(--color7);
           font-size: var(--text-sm);
           margin-top: 1.5rem;
         }
 
         p {
-          color: var(--color7);
+          color: var(--color-text-dark);
           line-height: 2.5rem;
           margin-top: 1.5rem;
         }
@@ -148,7 +146,7 @@ main {
           span {
             font-size: var(--text-xm);
             border-radius: 1rem;
-            background-color: var(--color1);
+            background-color: var(--color-card-bg-light);
             padding: 0 0.5rem;
             margin: 0.5rem 0.5rem 0 0;
           }
@@ -158,7 +156,11 @@ main {
   }
 
   .stack-tech {
-    background-color: var(--color6);
+    background-image: linear-gradient(
+      to top,
+      var(--color-bg-strong),
+      var(--color-bg-light)
+    );
 
     .container-stack-tech {
       @extend .container-base;
@@ -170,7 +172,7 @@ main {
       h4 {
         text-align: center;
         margin-bottom: 2rem;
-        color: var(--color1);
+        color: var(--color-text);
       }
 
       .frontend,
@@ -184,7 +186,7 @@ main {
           height: 4.8rem;
           margin: 0.6rem;
           border-radius: 1rem;
-          background-color: var(--color1);
+          background-color: var(--color-text-light);
           padding: 0.5rem;
           border: none;
         }
@@ -194,7 +196,7 @@ main {
     h2 {
       text-align: center;
       font-size: var(--text-lg);
-      color: var(--color1);
+      color: var(--color-text-light);
       margin-top: 3rem;
       margin-bottom: 5rem;
     }
@@ -212,7 +214,7 @@ main {
       }
 
       .shape-fill {
-        fill: var(--color1);
+        fill: var(--color-bg);
       }
     }
   }
