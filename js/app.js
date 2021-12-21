@@ -1,5 +1,5 @@
 import { iconMoon, iconSun } from './constants.js';
-import { renderCards } from './renders.js';
+import { renderCards, renderStackTech } from './renders.js';
 import themeHandler from './themeMode.js';
 
 (() => {
@@ -15,6 +15,8 @@ import themeHandler from './themeMode.js';
     }
 
     renderCards();
+    renderStackTech();
+
     date.textContent = new Date().getFullYear();
     themeMode.addEventListener('click', themeHandler);
   }

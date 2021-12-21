@@ -14,7 +14,7 @@
   --transition: 0.3s all;
 }
 
-body.dark-mode {
+:root body.dark-mode {
   --color1: #f8fafc;
   --color2: #334155;
   --color3: #041c32;
@@ -49,10 +49,3 @@ body {
   margin: 0 auto;
   padding: 0 2rem;
 }
-
-// header,
-// .container-card,
-// .presentation_info,
-// footer {
-
-// }

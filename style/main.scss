@@ -1,6 +1,6 @@
 main {
   .presentation {
-    background-color: var(--color5);
+    background-image: linear-gradient(to top, var(--color6), var(--color5));
     position: relative;
 
     .presentation_info {
@@ -50,7 +50,7 @@ main {
     }
 
     .shape-fill {
-      fill: var(--color5);
+      fill: var(--color6);
     }
   }
 
@@ -63,7 +63,7 @@ main {
     margin: 14rem 0 5rem 0;
   }
 
-  .container {
+  .container-card {
     @extend .container-base;
 
     h2 {
@@ -106,9 +106,14 @@ main {
 
             svg {
               margin: 0.3rem 0.5rem 0.1rem 0.5rem;
-              stroke: var(--color6);
+              stroke: var(--color5);
               height: 3rem;
               width: 3rem;
+              transition: var(--transition);
+
+              &:hover {
+                stroke: var(--color4);
+              }
             }
           }
         }
@@ -116,9 +121,11 @@ main {
 
       .card-info {
         padding: 1.5rem;
+        color: var(--color2);
 
-        h3 {
-          color: var(--color2);
+        h5 {
+          font-size: var(--text-sm);
+          margin-top: 1.5rem;
         }
 
         p {
@@ -128,7 +135,7 @@ main {
         }
 
         .card-stack {
-          margin-top: 1.5rem;
+          margin-top: 1rem;
           display: flex;
           flex-wrap: wrap;
 
@@ -144,27 +151,46 @@ main {
     }
   }
 
-  .container-stack-tech {
+  .stack-tech {
     background: var(--color6);
-  }
 
-  .wave-stack-tech {
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+    .container-stack-tech {
+      @extend .container-base;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      gap: 4rem;
 
-    svg {
-      position: relative;
-      display: block;
-      width: calc(100% + 1.3px);
-      height: 5rem;
+      .frontend,
+      .backend {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        img {
+          width: 5rem;
+          height: 5rem;
+          margin: 0;
+        }
+      }
     }
 
-    .shape-fill {
-      fill: var(--color3);
+    .wave-stack-tech {
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+
+      svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 5rem;
+      }
+
+      .shape-fill {
+        fill: var(--color3);
+      }
     }
   }
 }
@@ -181,8 +207,19 @@ main {
       }
     }
 
+    .stack-tech {
+      .container-stack-tech {
+        .frontend,
+        .backend {
+          justify-content: center;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+      }
+    }
+
     .wave,
-    .wave-stack-tech {
+    .stack-tech .wave-stack-tech {
       svg {
         height: 10rem;
       }

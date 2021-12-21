@@ -63,3 +63,32 @@ function renderLinks(item, card) {
     card.getElementById('card-links').append(a);
   }
 }
+
+export async function renderStackTech() {
+  const divFrontend = document.getElementById('frontend'),
+    divBackend = document.getElementById('backend');
+
+  const data = await useFetch('./assets/db/stackTech.json');
+
+  if (data) {
+    const { frontend, backend } = data;
+
+    for (const tech of frontend) {
+      const img = document.createElement('img');
+      img.src = tech.logo;
+      img.alt = tech.name;
+      img.title = tech.name;
+      img.loading = 'lazy';
+      divFrontend.appendChild(img);
+    }
+
+    for (const tech of backend) {
+      const img = document.createElement('img');
+      img.src = tech.logo;
+      img.alt = tech.name;
+      img.title = tech.name;
+      img.loading = 'lazy';
+      divBackend.appendChild(img);
+    }
+  }
+}

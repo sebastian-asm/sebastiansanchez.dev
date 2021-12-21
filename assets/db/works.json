@@ -12,14 +12,14 @@
     "title": "Carlos Moreno Inmobiliaria",
     "description": "",
     "web": "https://carlosmoreno.com.ar",
-    "github": "github 2",
+    "github": null,
     "stack": ["ReactJS", "Strapi", "MongoDB", "Tailwindcss", "DigitalOcean"],
     "img": "./assets/images/works/carlosmoreno.png",
     "category": "enabled"
   },
   {
     "title": "Jordanes Abogados",
-    "description": "otro test",
+    "description": "",
     "web": "https://jordanesabogados.com.ar/",
     "github": null,
     "stack": ["NextJS", "SCSS", "Vercel"],
@@ -38,17 +38,17 @@
   {
     "title": "Semana del Descanso",
     "description": "",
-    "web": "https://wireless-speed.com.ar/",
+    "web": "https://semanadeldescanso.com/",
     "github": null,
-    "stack": ["Angular", "Bootstrap"],
-    "img": "./assets/images/works/wireless-speed.png",
+    "stack": ["NextJS", "Tailwindcss"],
+    "img": "./assets/images/works/semanadeldescanso.png",
     "category": "enabled"
   },
   {
     "title": "Tu Ensayo",
     "description": "",
     "web": null,
-    "github": "https://tuensayo.org/",
+    "github": "a",
     "stack": ["Angular", "Bootstrap", "ExpressJS", "MongoDB"],
     "img": "./assets/images/works/wireless-speed.png",
     "category": "disabled"
@@ -57,8 +57,8 @@
     "title": "Taller de Cortinas",
     "description": "",
     "web": null,
-    "github": null,
-    "stack": ["Angular", "Bootstrap"],
+    "github": "a",
+    "stack": ["Angular", "Materialize"],
     "img": "./assets/images/works/wireless-speed.png",
     "category": "disabled"
   }

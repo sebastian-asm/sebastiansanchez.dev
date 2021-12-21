@@ -1,0 +1,78 @@
+{
+  "frontend": [
+    {
+      "name": "HTML",
+      "logo": "./assets/images/logos/html.svg"
+    },
+    {
+      "name": "CSS",
+      "logo": "./assets/images/logos/css.svg"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "./assets/images/logos/javascript.svg"
+    },
+    {
+      "name": "ReactJS",
+      "logo": "./assets/images/logos/react.svg"
+    },
+    {
+      "name": "NextJS",
+      "logo": "./assets/images/logos/nextjs.svg"
+    },
+    {
+      "name": "Webpack",
+      "logo": "./assets/images/logos/webpack.svg"
+    },
+    {
+      "name": "SCSS / SASS",
+      "logo": "./assets/images/logos/sass.svg"
+    },
+    {
+      "name": "Tailwindcss",
+      "logo": "./assets/images/logos/tailwindcss.svg"
+    },
+    {
+      "name": "Vercel",
+      "logo": "./assets/images/logos/vercel.svg"
+    }
+  ],
+  "backend": [
+    {
+      "name": "NodeJS",
+      "logo": "./assets/images/logos/nodejs.svg"
+    },
+    {
+      "name": "DigitalOcean",
+      "logo": "./assets/images/logos/digital-ocean.svg"
+    },
+    {
+      "name": "Firebase",
+      "logo": "./assets/images/logos/firebase.svg"
+    },
+    {
+      "name": "Heroku",
+      "logo": "./assets/images/logos/heroku.svg"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "./assets/images/logos/mongodb.svg"
+    },
+    {
+      "name": "MySQL",
+      "logo": "./assets/images/logos/mysql.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "logo": "./assets/images/logos/postgresql.svg"
+    },
+    {
+      "name": "GraphQL",
+      "logo": "./assets/images/logos/graphql.svg"
+    },
+    {
+      "name": "Strapi",
+      "logo": "./assets/images/logos/strapi.svg"
+    }
+  ]
+}
