@@ -4,7 +4,14 @@
     "description": "Sitio para corredora de propiedades en Chile, lo que le permite administrar sus ventas y arriendos ya sea de casas, departamentos y terrenos.",
     "web": "https://icasshpropiedades.cl",
     "github": null,
-    "stack": ["ReactJS", "Strapi", "MongoDB", "Tailwindcss", "DigitalOcean"],
+    "stack": [
+      "ReactJS",
+      "NodeJS",
+      "Strapi",
+      "MongoDB",
+      "Tailwindcss",
+      "DigitalOcean"
+    ],
     "img": "./assets/images/works/icasshpropiedades.webp",
     "category": "enabled"
   },
@@ -13,14 +20,21 @@
     "description": "",
     "web": "https://carlosmoreno.com.ar",
     "github": null,
-    "stack": ["ReactJS", "Strapi", "MongoDB", "Tailwindcss", "DigitalOcean"],
+    "stack": [
+      "ReactJS",
+      "NodeJS",
+      "Strapi",
+      "MongoDB",
+      "Tailwindcss",
+      "DigitalOcean"
+    ],
     "img": "./assets/images/works/carlosmoreno.webp",
     "category": "enabled"
   },
   {
     "title": "Jordanes Abogados",
     "description": "",
-    "web": "https://jordanesabogados.com.ar/",
+    "web": "https://jordanesabogados.com.ar",
     "github": null,
     "stack": ["NextJS", "SCSS", "Vercel"],
     "img": "./assets/images/works/jordanesabogados.webp",
@@ -29,7 +43,7 @@
   {
     "title": "Wireless Speed",
     "description": "",
-    "web": "https://wireless-speed.com.ar/",
+    "web": "https://wireless-speed.com.ar",
     "github": null,
     "stack": ["Angular", "Bootstrap"],
     "img": "./assets/images/works/wireless-speed.webp",
@@ -38,7 +52,7 @@
   {
     "title": "Semana del Descanso",
     "description": "",
-    "web": "https://semanadeldescanso.com/",
+    "web": "https://semanadeldescanso.com",
     "github": null,
     "stack": ["NextJS", "Tailwindcss"],
     "img": "./assets/images/works/semanadeldescanso.webp",
@@ -61,5 +75,128 @@
     "stack": ["Angular", "Materialize"],
     "img": "./assets/images/works/wireless-speed.png",
     "category": "disabled"
+  },
+  {
+    "title": "MERN Tasks",
+    "description": "",
+    "web": "https://gallant-elion-191f02.netlify.app",
+    "github": "https://github.com/sebatstian-web/MERN-Tasks",
+    "stack": [
+      "ReactJS",
+      "ExpressJS",
+      "MongoDB",
+      "JSON Web Token",
+      "Netlify",
+      "Heroku"
+    ],
+    "img": "./assets/images/works/merntasks.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "React Node Send",
+    "description": "",
+    "web": "https://filesend-kohl.vercel.app",
+    "github": "https://github.com/sebatstian-web/File-Send-Express-Next",
+    "stack": [
+      "NextJS",
+      "ExpressJS",
+      "MongoDB",
+      "JSON Web Token",
+      "Formik",
+      "Tailwindcss",
+      "Vercel",
+      "Heroku"
+    ],
+    "img": "./assets/images/works/reactsend.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "Tiendita Pop!",
+    "description": "",
+    "web": "https://tiendita-pop.web.app",
+    "github": "https://github.com/sebatstian-web/React-Webpack",
+    "stack": [
+      "ReactJS",
+      "Webpack",
+      "Paypal API",
+      "LocationIQ API",
+      "Leaflet Maps",
+      "Firebase Hosting"
+    ],
+    "img": "./assets/images/works/tienditapop.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "Clon Instagram App",
+    "description": "",
+    "web": "https://clon-instagram.vercel.app",
+    "github": "https://github.com/sebatstian-web/Clon-Instagram",
+    "stack": ["ReactJS", "Webpack", "GraphQL", "Apollo", "Vercel"],
+    "img": "./assets/images/works/cloninstagram.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "Conoce Tu IP",
+    "description": "",
+    "web": "https://zealous-kowalevski-a6c8c8.netlify.app",
+    "github": "https://github.com/sebatstian-web/Conoce-Tu-IP",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ipify API",
+      "Leaflet Maps",
+      "Netlify"
+    ],
+    "img": "./assets/images/works/conocetuip.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "Blog Firebase",
+    "description": "",
+    "web": "https://proyecto-blog-230b8.web.app",
+    "github": "https://github.com/sebatstian-web/Firebase-Blog",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firestore Database",
+      "Firebase Hosting"
+    ],
+    "img": "./assets/images/works/blogfirebase.webp",
+    "category": "proyect"
+  },
+
+  {
+    "title": "Rick & Morty",
+    "description": "",
+    "web": "https://hardcore-babbage-8afb20.netlify.app",
+    "github": "https://github.com/sebatstian-web/Webpack-Base-JavaScript",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Webpack",
+      "Rick & Morty API",
+      "Netlify"
+    ],
+    "img": "./assets/images/works/rickandmorty.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "Movie App",
+    "description": "",
+    "web": "https://mystifying-engelbart-46cf8b.netlify.app",
+    "github": "https://github.com/sebatstian-web/Angular-Movie-App",
+    "stack": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "TMDB API",
+      "Bootstrap",
+      "Netlify"
+    ],
+    "img": "./assets/images/works/movieapp.webp",
+    "category": "proyect"
   }
 ]
