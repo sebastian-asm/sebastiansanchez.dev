@@ -5,7 +5,7 @@
     "web": "https://icasshpropiedades.cl",
     "github": null,
     "stack": ["ReactJS", "Strapi", "MongoDB", "Tailwindcss", "DigitalOcean"],
-    "img": "./assets/images/works/icasshpropiedades.png",
+    "img": "./assets/images/works/icasshpropiedades.webp",
     "category": "enabled"
   },
   {
@@ -14,7 +14,7 @@
     "web": "https://carlosmoreno.com.ar",
     "github": null,
     "stack": ["ReactJS", "Strapi", "MongoDB", "Tailwindcss", "DigitalOcean"],
-    "img": "./assets/images/works/carlosmoreno.png",
+    "img": "./assets/images/works/carlosmoreno.webp",
     "category": "enabled"
   },
   {
@@ -23,7 +23,7 @@
     "web": "https://jordanesabogados.com.ar/",
     "github": null,
     "stack": ["NextJS", "SCSS", "Vercel"],
-    "img": "./assets/images/works/jordanesabogados.png",
+    "img": "./assets/images/works/jordanesabogados.webp",
     "category": "enabled"
   },
   {
@@ -32,7 +32,7 @@
     "web": "https://wireless-speed.com.ar/",
     "github": null,
     "stack": ["Angular", "Bootstrap"],
-    "img": "./assets/images/works/wireless-speed.png",
+    "img": "./assets/images/works/wireless-speed.webp",
     "category": "enabled"
   },
   {
@@ -41,7 +41,7 @@
     "web": "https://semanadeldescanso.com/",
     "github": null,
     "stack": ["NextJS", "Tailwindcss"],
-    "img": "./assets/images/works/semanadeldescanso.png",
+    "img": "./assets/images/works/semanadeldescanso.webp",
     "category": "enabled"
   },
   {
