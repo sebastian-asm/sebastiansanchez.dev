@@ -9,6 +9,7 @@
       "NodeJS",
       "Strapi",
       "MongoDB",
+      "Cloudinary",
       "Tailwindcss",
       "DigitalOcean"
     ],
@@ -25,6 +26,7 @@
       "NodeJS",
       "Strapi",
       "MongoDB",
+      "Cloudinary",
       "Tailwindcss",
       "DigitalOcean"
     ],
@@ -62,18 +64,25 @@
     "title": "Tu Ensayo",
     "description": "",
     "web": null,
-    "github": "a",
-    "stack": ["Angular", "Bootstrap", "ExpressJS", "MongoDB"],
-    "img": "./assets/images/works/wireless-speed.png",
+    "github": null,
+    "stack": [
+      "Angular",
+      "ExpressJS",
+      "JSON Web Token",
+      "Nodemailer",
+      "MongoDB",
+      "Bootstrap"
+    ],
+    "img": "./assets/images/works/tuensayo.webp",
     "category": "disabled"
   },
   {
     "title": "Taller de Cortinas",
     "description": "",
     "web": null,
-    "github": "a",
-    "stack": ["Angular", "Materialize"],
-    "img": "./assets/images/works/wireless-speed.png",
+    "github": "https://github.com/sebatstian-web/tallerdecortinas",
+    "stack": ["Angular", "TypeScript", "Instagram API", "Materialize"],
+    "img": "./assets/images/works/tallerdecortinas.webp",
     "category": "disabled"
   },
   {
@@ -94,7 +103,7 @@
   },
   {
     "title": "React Node Send",
-    "description": "",
+    "description": "seba@seba.com 123456",
     "web": "https://filesend-kohl.vercel.app",
     "github": "https://github.com/sebatstian-web/File-Send-Express-Next",
     "stack": [
@@ -184,6 +193,15 @@
     "category": "proyect"
   },
   {
+    "title": "Blackjack JS",
+    "description": "",
+    "web": "https://sebatstian-web.github.io/Demo-Juego-JS",
+    "github": "https://github.com/sebatstian-web/Demo-Juego-JS",
+    "stack": ["HTML", "CSS", "JavaScript", "Github Pages"],
+    "img": "./assets/images/works/blackjackjs.webp",
+    "category": "proyect"
+  },
+  {
     "title": "Movie App",
     "description": "",
     "web": "https://mystifying-engelbart-46cf8b.netlify.app",
@@ -197,6 +215,30 @@
       "Netlify"
     ],
     "img": "./assets/images/works/movieapp.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "Mini Dashboard",
+    "description": "sebas@sebas.com 123456",
+    "web": "https://mini-dashboard-3800f.web.app",
+    "github": "https://github.com/sebatstian-web/Dashboard-Angular",
+    "stack": [
+      "Angular",
+      "TypeScript",
+      "Bootstrap",
+      "Firestore Database",
+      "Firebase Hosting"
+    ],
+    "img": "./assets/images/works/minidashboard.webp",
+    "category": "proyect"
+  },
+  {
+    "title": "GraphQL API CRUD",
+    "description": "",
+    "web": "https://sebatstian-graphql-crud.herokuapp.com/api",
+    "github": "https://github.com/sebatstian-web/GraphQL-CRUD",
+    "stack": ["ExpressJS", "GraphQL", "MongoDB", "Heroku"],
+    "img": null,
     "category": "proyect"
   }
 ]

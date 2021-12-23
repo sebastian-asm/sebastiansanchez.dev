@@ -6,13 +6,14 @@ export async function renderCards() {
     fragment = document.createDocumentFragment(),
     enabled = document.getElementById('enabled'),
     disabled = document.getElementById('disabled'),
-    proyect = document.getElementById('proyect');
+    proyect = document.getElementById('proyect'),
+    noImg = './assets/images/no-img.webp';
 
   const data = await useFetch('./assets/db/works.json');
 
   if (data) {
     for (const item of data) {
-      card.querySelector('img').src = item.img;
+      card.querySelector('img').src = item.img || noImg;
       card.querySelector('img').alt = item.title;
       card.getElementById('title').textContent = item.title;
       card.getElementById('description').textContent = item.description;

@@ -95,6 +95,10 @@
       "logo": "./assets/images/logos/digital-ocean.svg"
     },
     {
+      "name": "Cloudinary",
+      "logo": "./assets/images/logos/cloudinary.svg"
+    },
+    {
       "name": "Heroku",
       "logo": "./assets/images/logos/heroku.svg"
     }
