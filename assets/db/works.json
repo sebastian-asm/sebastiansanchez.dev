@@ -87,7 +87,7 @@
   },
   {
     "title": "MERN Tasks",
-    "description": "Proyecto con el stack MERN el que permite llevar control de tareas pedientes (email: seba@seba.com password: 123456).",
+    "description": "Proyecto con el stack MERN el que permite llevar control de tareas pedientes (datos de prueba: seba@seba.com - 123456).",
     "web": "https://gallant-elion-191f02.netlify.app",
     "github": "https://github.com/sebatstian-web/MERN-Tasks",
     "stack": [
@@ -103,7 +103,7 @@
   },
   {
     "title": "React Node Send",
-    "description": "seba@seba.com 123456",
+    "description": "Clon de Firefox Send, el que permite subir archivos para usuario registrados o no y luego compartir el link (datos de prueba: seba@seba.com - 123456).",
     "web": "https://filesend-kohl.vercel.app",
     "github": "https://github.com/sebatstian-web/File-Send-Express-Next",
     "stack": [
@@ -121,7 +121,7 @@
   },
   {
     "title": "Tiendita Pop!",
-    "description": "",
+    "description": "Implementando ReactJS y Webpack para construir demo sencillo de tienda, además de conocer la API de Paypal y LocationIQ para mostrar mapas.",
     "web": "https://tiendita-pop.web.app",
     "github": "https://github.com/sebatstian-web/React-Webpack",
     "stack": [
@@ -137,7 +137,7 @@
   },
   {
     "title": "Clon Instagram App",
-    "description": "",
+    "description": "Practicando ReactJS a profundidad con configuración de Webpack y consumiendo API creada con GraphQL.",
     "web": "https://clon-instagram.vercel.app",
     "github": "https://github.com/sebatstian-web/Clon-Instagram",
     "stack": ["ReactJS", "Webpack", "GraphQL", "Apollo", "Vercel"],
@@ -146,7 +146,7 @@
   },
   {
     "title": "Conoce Tu IP",
-    "description": "",
+    "description": "Construido con Vanilla JavaScript para obtener la latitud y logintud de la IP, mostrando la ubicación en un mapa.",
     "web": "https://zealous-kowalevski-a6c8c8.netlify.app",
     "github": "https://github.com/sebatstian-web/Conoce-Tu-IP",
     "stack": [
@@ -162,7 +162,7 @@
   },
   {
     "title": "Blog Firebase",
-    "description": "",
+    "description": "Desarrollado sin framework y utilizando las herramientas de Firebase como base de datos, autenticación y subida de archivos.",
     "web": "https://proyecto-blog-230b8.web.app",
     "github": "https://github.com/sebatstian-web/Firebase-Blog",
     "stack": [
