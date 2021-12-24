@@ -103,7 +103,7 @@
   },
   {
     "title": "React Node Send",
-    "description": "Clon de Firefox Send, el que permite subir archivos para usuario registrados o no y luego compartir el link (datos de prueba: seba@seba.com - 123456).",
+    "description": "Clon de Firefox Send que permite subir archivos de usuario registrados o no y luego compartir el link (datos de prueba: seba@seba.com - 123456).",
     "web": "https://filesend-kohl.vercel.app",
     "github": "https://github.com/sebatstian-web/File-Send-Express-Next",
     "stack": [

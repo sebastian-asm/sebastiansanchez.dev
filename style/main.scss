@@ -63,22 +63,35 @@ main {
     }
   }
 
-  .disabled,
-  .proyect {
-    margin: 7rem 0;
-  }
-
-  .enabled {
-    margin: 14rem 0 5rem 0;
-  }
-
   .container-card {
     @extend .container-base;
 
-    h2 {
-      color: var(--color-subtitle);
-      font-size: var(--text-lg);
+    .disabled,
+    .proyect {
+      margin: 7rem 0;
+    }
+
+    .enabled {
+      margin: 14rem 0 5rem 0;
+    }
+
+    .subtitle {
+      display: flex;
+      align-items: center;
       margin-bottom: 3rem;
+
+      svg {
+        stroke: var(--color-subtitle);
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.5rem;
+      }
+
+      h2 {
+        color: var(--color-subtitle);
+        font-size: var(--text-lg);
+        display: inline-block;
+      }
     }
 
     .grid {
@@ -107,7 +120,7 @@ main {
         .card-links {
           position: absolute;
           right: 0.5rem;
-          top: 12.5rem;
+          top: 12.8rem;
           border-radius: 1rem;
 
           a {
@@ -116,9 +129,8 @@ main {
             svg {
               margin: 0.3rem 0.5rem 0.1rem 0.5rem;
               stroke: var(--color-card-text-link);
-              // stroke: var(--color-card-bg-link);
-              height: 4rem;
-              width: 4rem;
+              height: 3.8rem;
+              width: 3.8rem;
               filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.4));
             }
           }
