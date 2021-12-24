@@ -15,7 +15,7 @@
   --color-bg-strong: #6247aa;
   --color-card-bg: #fff;
   --color-card-bg-light: #f3f4f6;
-  --color-card-bg-link: #815ac0;
+  --color-card-text-link: #fff;
   --transition: 0.25s all;
 }
 
@@ -31,7 +31,21 @@
   --color-bg-strong: #002e4e;
   --color-card-bg: #001a2c;
   --color-card-bg-light: #00253e;
-  --color-card-bg-link: #0062a3;
+  --color-card-text-link: #fff;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/fonts/Outfit-Regular.ttf');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/fonts/Outfit-Bold.ttf');
+  font-weight: 700;
+  font-display: swap;
 }
 
 *,

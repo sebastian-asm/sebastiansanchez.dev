@@ -1,7 +1,7 @@
 [
   {
     "title": "Icassh Propiedades",
-    "description": "Sitio para corredora de propiedades en Chile, lo que le permite administrar sus ventas y arriendos ya sea de casas, departamentos y terrenos.",
+    "description": "Sitio para corredora de propiedades en San Fernando (Chile), cuenta con dashboard construido con Strapi lo que permite el mantenimiento de datos.",
     "web": "https://icasshpropiedades.cl",
     "github": null,
     "stack": [
@@ -18,7 +18,7 @@
   },
   {
     "title": "Carlos Moreno Inmobiliaria",
-    "description": "",
+    "description": "Permite el mantenimiento de las propiedades en Merlo, Buenos Aires (Argentina). Las propiedades del Home en el frontend son destacadas por los administradores.",
     "web": "https://carlosmoreno.com.ar",
     "github": null,
     "stack": [
@@ -35,7 +35,7 @@
   },
   {
     "title": "Jordanes Abogados",
-    "description": "",
+    "description": "Web para esutidio jurídico con el objetivo de tener presencia en Internet, dando a conocer su marca y servicios.",
     "web": "https://jordanesabogados.com.ar",
     "github": null,
     "stack": ["NextJS", "SCSS", "Vercel"],
@@ -44,16 +44,16 @@
   },
   {
     "title": "Wireless Speed",
-    "description": "",
+    "description": "Creado para proveedor de diversos servicios de Internet en Merlo, Buenos Aires (Argentina).",
     "web": "https://wireless-speed.com.ar",
     "github": null,
-    "stack": ["Angular", "Bootstrap"],
+    "stack": ["Angular", "TypeScript", "Bootstrap"],
     "img": "./assets/images/works/wireless-speed.webp",
     "category": "enabled"
   },
   {
     "title": "Semana del Descanso",
-    "description": "",
+    "description": "Desarrollado para la semana del descanso en Buenos Aires (Argentina), donde se muestras las marcas adheridas a las promociones.",
     "web": "https://semanadeldescanso.com",
     "github": null,
     "stack": ["NextJS", "Tailwindcss"],
@@ -62,7 +62,7 @@
   },
   {
     "title": "Tu Ensayo",
-    "description": "",
+    "description": "Sitio que permitía buscar ensayos clínicas filtrados por patología y país. Contaba con dashboard para subir grandes cantidades de ensayos en formato .csv.",
     "web": null,
     "github": null,
     "stack": [
@@ -78,7 +78,7 @@
   },
   {
     "title": "Taller de Cortinas",
-    "description": "",
+    "description": "Desarrollada para pyme en Santiago (Chile) de confecciones de cortinas, con el proposito de dar a conocer la marca.",
     "web": null,
     "github": "https://github.com/sebatstian-web/tallerdecortinas",
     "stack": ["Angular", "TypeScript", "Instagram API", "Materialize"],
@@ -87,7 +87,7 @@
   },
   {
     "title": "MERN Tasks",
-    "description": "",
+    "description": "Proyecto con el stack MERN el que permite llevar control de tareas pedientes (email: seba@seba.com password: 123456).",
     "web": "https://gallant-elion-191f02.netlify.app",
     "github": "https://github.com/sebatstian-web/MERN-Tasks",
     "stack": [
@@ -178,7 +178,7 @@
 
   {
     "title": "Rick & Morty",
-    "description": "",
+    "description": "Configuración base de Webpack y Babel con minificación de código y reducción del tamaño de las imágenes. Se muestran personajes aleatoriamente de la serie.",
     "web": "https://hardcore-babbage-8afb20.netlify.app",
     "github": "https://github.com/sebatstian-web/Webpack-Base-JavaScript",
     "stack": [
@@ -194,7 +194,7 @@
   },
   {
     "title": "Blackjack JS",
-    "description": "",
+    "description": "Demo de juego creado en Vanilla JavaScript utilizando el patrón Módulo.",
     "web": "https://sebatstian-web.github.io/Demo-Juego-JS",
     "github": "https://github.com/sebatstian-web/Demo-Juego-JS",
     "stack": ["HTML", "CSS", "JavaScript", "Github Pages"],
@@ -203,7 +203,7 @@
   },
   {
     "title": "Movie App",
-    "description": "",
+    "description": "Consumiendo API de themoviedb.org para obtener el listado de películas, aplicando Infinite Scroll, Swipper JS para los slides show y librería RxJS.",
     "web": "https://mystifying-engelbart-46cf8b.netlify.app",
     "github": "https://github.com/sebatstian-web/Angular-Movie-App",
     "stack": [
@@ -219,7 +219,7 @@
   },
   {
     "title": "Mini Dashboard",
-    "description": "sebas@sebas.com 123456",
+    "description": "Mini Dashboard para control de clientes con conexión a Firestore Database y autenticación con email y password (datos de prueba: sebas@sebas.com - 123456).",
     "web": "https://mini-dashboard-3800f.web.app",
     "github": "https://github.com/sebatstian-web/Dashboard-Angular",
     "stack": [
@@ -234,11 +234,11 @@
   },
   {
     "title": "GraphQL API CRUD",
-    "description": "",
+    "description": "Desarrollo de API sencilla con GraphQL utilizando queries, mutations, types, interface y union para CRUD con conexión a MongoDB.",
     "web": "https://sebatstian-graphql-crud.herokuapp.com/api",
     "github": "https://github.com/sebatstian-web/GraphQL-CRUD",
     "stack": ["ExpressJS", "GraphQL", "MongoDB", "Heroku"],
-    "img": null,
+    "img": "./assets/images/works/api.webp",
     "category": "proyect"
   }
 ]

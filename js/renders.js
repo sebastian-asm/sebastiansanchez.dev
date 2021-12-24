@@ -6,14 +6,13 @@ export async function renderCards() {
     fragment = document.createDocumentFragment(),
     enabled = document.getElementById('enabled'),
     disabled = document.getElementById('disabled'),
-    proyect = document.getElementById('proyect'),
-    noImg = './assets/images/no-img.webp';
+    proyect = document.getElementById('proyect');
 
   const data = await useFetch('./assets/db/works.json');
 
   if (data) {
     for (const item of data) {
-      card.querySelector('img').src = item.img || noImg;
+      card.querySelector('img').src = item.img;
       card.querySelector('img').alt = item.title;
       card.getElementById('title').textContent = item.title;
       card.getElementById('description').textContent = item.description;
@@ -47,7 +46,7 @@ function renderLinks(item, card) {
   if (item.web) {
     const a = document.createElement('a');
     a.href = item.web;
-    a.title = 'Visitar sitio';
+    a.title = 'Visitar';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
     a.innerHTML = iconLink;
@@ -57,7 +56,7 @@ function renderLinks(item, card) {
   if (item.github) {
     const a = document.createElement('a');
     a.href = item.github;
-    a.title = 'Ver código';
+    a.title = 'Código';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
     a.innerHTML = iconGithub;
