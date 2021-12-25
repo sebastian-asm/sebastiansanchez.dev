@@ -1,5 +1,14 @@
 [
   {
+    "title": "Facturación AFIP",
+    "description": "En desarrollo WebApp para pyme que permitirá la emisión de facturas electrónicas en Argentina.",
+    "web": null,
+    "github": null,
+    "stack": ["ReactJS", "ExpressJS", "MySQL"],
+    "img": "./assets/images/works/facturacion.webp",
+    "category": "now"
+  },
+  {
     "title": "Icassh Propiedades",
     "description": "Sitio para corredora de propiedades en San Fernando (Chile), cuenta con dashboard construido con Strapi lo que permite el mantenimiento de datos.",
     "web": "https://icasshpropiedades.cl",

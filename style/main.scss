@@ -66,12 +66,13 @@ main {
   .container-card {
     @extend .container-base;
 
+    .enabled,
     .disabled,
     .proyect {
       margin: 7rem 0;
     }
 
-    .enabled {
+    .now {
       margin: 14rem 0 5rem 0;
     }
 

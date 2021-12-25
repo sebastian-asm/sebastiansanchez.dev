@@ -19,6 +19,12 @@ footer {
       font-size: var(--text-xm);
       font-weight: 700;
       text-transform: uppercase;
+
+      a {
+        color: var(--color-text);
+        text-decoration: none;
+        border-bottom: 1px dotted var(--color-text);
+      }
     }
   }
 }

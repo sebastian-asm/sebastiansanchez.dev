@@ -4,6 +4,7 @@ import useFetch from './useFetch.js';
 export async function renderCards() {
   const card = document.getElementById('template-card').content,
     fragment = document.createDocumentFragment(),
+    now = document.getElementById('now'),
     enabled = document.getElementById('enabled'),
     disabled = document.getElementById('disabled'),
     proyect = document.getElementById('proyect');
@@ -23,6 +24,7 @@ export async function renderCards() {
       const clone = card.cloneNode(true);
       fragment.appendChild(clone);
 
+      if (item.category === 'now') now.appendChild(fragment);
       if (item.category === 'enabled') enabled.appendChild(fragment);
       if (item.category === 'disabled') disabled.appendChild(fragment);
       if (item.category === 'proyect') proyect.appendChild(fragment);
