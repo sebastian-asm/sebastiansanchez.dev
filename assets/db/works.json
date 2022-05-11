@@ -9,15 +9,6 @@
     "category": "now"
   },
   {
-    "title": "Buscador de ensayos",
-    "description": "En desarrollo sitio que tiene como objetivo buscar ensayos clínicos para diferentes enfermedades.",
-    "web": null,
-    "github": null,
-    "stack": ["NextJS", "ExpressJS", "Tailwindcss", "MongoDB"],
-    "img": "./assets/images/works/buscarensayo.webp",
-    "category": "now"
-  },
-  {
     "title": "Icassh Propiedades",
     "description": "Sitio para corredora de propiedades en San Fernando (Chile), cuenta con dashboard construido con Strapi lo que permite el mantenimiento de datos.",
     "web": "https://icasshpropiedades.cl",
@@ -29,7 +20,7 @@
       "MongoDB",
       "Cloudinary",
       "Tailwindcss",
-      "DigitalOcean"
+      "Railway"
     ],
     "img": "./assets/images/works/icasshpropiedades.webp",
     "category": "enabled"
@@ -46,7 +37,7 @@
       "MongoDB",
       "Cloudinary",
       "Tailwindcss",
-      "DigitalOcean"
+      "Railway"
     ],
     "img": "./assets/images/works/carlosmoreno.webp",
     "category": "enabled"
@@ -88,9 +79,9 @@
     "category": "enabled"
   },
   {
-    "title": "Tu Ensayo",
-    "description": "Sitio que permitía buscar ensayos clínicas filtrados por patología y país. Contaba con dashboard para subir grandes cantidades de ensayos en formato .csv.",
-    "web": null,
+    "title": "Busca un Ensayo",
+    "description": "Sitio que permite buscar ensayos clínicas filtrados por patología y país. Cuenta con dashboard interno para subir grandes cantidades de ensayos en formato .csv.",
+    "web": "https://buscaunensayo.org/",
     "github": null,
     "stack": [
       "Angular",
@@ -98,10 +89,11 @@
       "JSON Web Token",
       "Nodemailer",
       "MongoDB",
+      "Railway",
       "Bootstrap"
     ],
     "img": "./assets/images/works/tuensayo.webp",
-    "category": "disabled"
+    "category": "enabled"
   },
   {
     "title": "Taller de Cortinas",

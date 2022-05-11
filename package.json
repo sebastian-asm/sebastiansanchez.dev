@@ -1,0 +1,20 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Este portafolio contiene el historial de mis trabajos construidos desde cero hasta producción, y también proyectos de prueba realizados en el aprendizaje de múltiples plataformas de educación online.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass -w ./sass/index.scss ./css/style.css -s compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebatstian-web/portafolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebatstian-web/portafolio/issues"
+  },
+  "homepage": "https://github.com/sebatstian-web/portafolio#readme"
+}

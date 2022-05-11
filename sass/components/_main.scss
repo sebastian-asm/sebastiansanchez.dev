@@ -123,6 +123,7 @@ main {
           right: 0.5rem;
           top: 12.8rem;
           border-radius: 1rem;
+          background-color: rgba(0, 0, 0, 0.2);
 
           a {
             text-decoration: none;
@@ -133,6 +134,11 @@ main {
               height: 3.8rem;
               width: 3.8rem;
               filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.4));
+              transition: transform 0.2s ease;
+
+              &:hover {
+                transform: translateY(-3px);
+              }
             }
           }
         }
@@ -204,6 +210,11 @@ main {
           background-color: var(--color-text-light);
           padding: 0.5rem;
           border: none;
+          transition: transform 0.2s ease;
+
+          &:hover {
+            transform: translate(3px, -3px);
+          }
         }
       }
     }
