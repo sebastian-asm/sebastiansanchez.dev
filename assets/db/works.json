@@ -259,5 +259,14 @@
     "stack": ["ExpressJS", "GraphQL", "MongoDB", "Heroku"],
     "img": "./assets/images/works/api.webp",
     "category": "proyect"
+  },
+  {
+    "title": "CRUD API Database",
+    "description": "API desarrollada con TinyHttp a modo de ejemplo para conexión y CRUD con base de datos MongoDB, MySQL y PostgreSQL con sus respectivos drivers.",
+    "web": null,
+    "github": "https://github.com/sebatstian-web/CRUD-Databases",
+    "stack": ["TinyHttp", "MongoDB", "MySQL", "PostgreSQL"],
+    "img": "./assets/images/works/api.webp",
+    "category": "proyect"
   }
 ]
