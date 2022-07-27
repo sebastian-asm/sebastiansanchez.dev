@@ -4,294 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sebastián Sánchez - Desarrollador Web</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="canonical" href="https://sebastiansanchez.dev" />
+    <title>Sebastián Sánchez</title>
+    <meta
+      name="description"
+      content="Cuento con más de 4 años de experiencia utilizando principalmente el ecosistema de JavaScript, con ReactJS por el lado del frontend y NodeJS para el backend."
+    />
     <meta
       name="google-site-verification"
       content="7H_LjDcvNCvGp14iDDOqectWvLfJr6SfrCmOqjPssfI"
     />
-    <meta
-      name="description"
-      content="Soy un Desarrollador Web con más de 4 años de experiencia utilizando principalmente el ecosistema JavaScript, como ReactJS (frontend) y NodeJS (backend). Aquí mi portafolio de trabajos y proyectos. 🚀"
+
+    <link rel="canonical" href="https://sebastiansanchez.dev" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
     />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h3>Sebastián Sánchez</h3>
-        <nav>
-          <ul>
-            <li id="theme-mode"></li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/sebastian-sanchez-miles/"
-                target="_blank"
-                rel="noopenner"
-                title="LinkedIn"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <rect x="4" y="4" width="16" height="16" rx="2" />
-                  <line x1="8" y1="11" x2="8" y2="16" />
-                  <line x1="8" y1="8" x2="8" y2="8.01" />
-                  <line x1="12" y1="16" x2="12" y2="11" />
-                  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/sebatstian-web"
-                target="_blank"
-                rel="noopenner"
-                title="Github"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path
-                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
-                  />
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <section class="presentation">
-        <div class="presentation_info">
-          <div class="presentation_info_avatar">
-            <img
-              src="./assets/images/sebastian_sanchez.webp"
-              alt="Sebastián Sánchez"
-            />
-          </div>
-          <div class="presentation_text">
-            <h1>Desarrollador Web</h1>
-            <p>
-              Cuento con más de 4 años de experiencia utilizando principalmente
-              el ecosistema de <strong>JavaScript</strong>, como
-              <strong>ReactJS</strong> en el Frontend y
-              <strong>NodeJS</strong> para el Backend. Soy un apasionado del
-              aprendizaje y deseoso de seguir aplicando mis conocimientos para
-              crear herramientas que brinden soluciones a los problemas
-              cotidianos de la vida.
-            </p>
-          </div>
-        </div>
-
-        <div class="wave">
+    <main class="main">
+      <section class="info">
+        <div class="info__avatar">
+          <img
+            src="./assets/sebastian_sanchez.webp"
+            alt="Sebastián Sánchez"
+            width="150"
+            height="150"
+          />
           <svg
-            data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
+            class="caret-right"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
           >
-            <path
-              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
-              opacity=".25"
-              class="shape-fill"
-            ></path>
-            <path
-              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
-              opacity=".5"
-              class="shape-fill"
-            ></path>
-            <path
-              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
-              class="shape-fill"
-            ></path>
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="caret-down"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
           </svg>
         </div>
-      </section>
+        <div class="info__data">
+          <h1>Desarrollador Web</h1>
+          <p>
+            Cuento con más de 4 años de experiencia utilizando principalmente el
+            ecosistema de <strong>JavaScript</strong>, con
+            <strong>ReactJS</strong> por el lado del frontend y
+            <strong>NodeJS</strong> para el backend. Actualmente trabajo como
+            Software Developer FullStack en Telecom y como Profesor de
+            Desarrollo Web en Corderhouse.
+          </p>
+          <div class="info__data-rrss">
+            <a href="https://www.linkedin.com/in/sebastian-sanchez-miles/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <line x1="8" y1="11" x2="8" y2="16" />
+                <line x1="8" y1="8" x2="8" y2="8.01" />
+                <line x1="12" y1="16" x2="12" y2="11" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+              </svg>
+            </a>
 
-      <section class="container-card">
-        <div class="now">
-          <div class="subtitle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
-              <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
-              <polyline points="12 8 7 3 3 7 8 12" />
-              <line x1="7" y1="8" x2="5.5" y2="9.5" />
-              <polyline points="16 12 21 17 17 21 12 16" />
-              <line x1="16" y1="17" x2="14.5" y2="18.5" />
-            </svg>
-            <h2>
-              Actualmente
-            </h2>
-          </div>
-          <div class="grid" id="now"></div>
-        </div>
-        <div class="enabled">
-          <div class="subtitle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <line x1="12" y1="18" x2="12.01" y2="18" />
-              <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
-              <path d="M6.343 12.343a8 8 0 0 1 11.314 0" />
-              <path d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0" />
-            </svg>
-            <h2>
-              Trabajos online
-            </h2>
-          </div>
-          <div class="grid" id="enabled"></div>
-        </div>
-        <div class="disabled">
-          <div class="subtitle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <line x1="12" y1="18" x2="12.01" y2="18" />
-              <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
-              <path
-                d="M6.343 12.343a7.963 7.963 0 0 1 3.864 -2.14m4.163 .155a7.965 7.965 0 0 1 3.287 2"
-              />
-              <path
-                d="M3.515 9.515a12 12 0 0 1 3.544 -2.455m3.101 -.92a12 12 0 0 1 10.325 3.374"
-              />
-              <line x1="3" y1="3" x2="21" y2="21" />
-            </svg>
-            <h2>
-              Trabajos offline
-            </h2>
-          </div>
-          <div class="grid" id="disabled"></div>
-        </div>
-        <div class="proyect">
-          <div class="subtitle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M16 4l3 3l-12.35 12.35a1.5 1.5 0 0 1 -3 -3l12.35 -12.35"
-              />
-              <line x1="10" y1="10" x2="16" y2="10" />
-              <path d="M19 15l1.5 1.6a2 2 0 1 1 -3 0l1.5 -1.6" />
-            </svg>
-            <h2>
-              Proyectos de práctica
-            </h2>
-          </div>
-          <div class="grid" id="proyect"></div>
-        </div>
-      </section>
-
-      <section class="stack-tech">
-        <div class="wave-stack-tech">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
-          </svg>
-        </div>
-
-        <h2>Mis habilidades técnicas</h2>
-
-        <div class="container-stack-tech">
-          <div>
-            <h4>Frontend</h4>
-            <div class="frontend" id="frontend"></div>
-          </div>
-          <div>
-            <h4>Backend</h4>
-            <div class="backend" id="backend"></div>
+            <a href="https://github.com/sebatstian-web">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                />
+              </svg>
+            </a>
           </div>
         </div>
       </section>
-
-      <!-- Template cards -->
-      <template id="template-card">
-        <article class="card">
-          <div class="card-image">
-            <img src="" alt="" loading="lazy" />
-            <div class="card-links" id="card-links"></div>
-          </div>
-          <div class="card-info">
-            <h3 id="title"></h3>
-            <p id="description"></p>
-            <h5>Tech stack</h5>
-            <p class="card-stack" id="stack"></p>
-          </div>
-        </article>
-      </template>
     </main>
-
-    <footer>
-      <div class="container">
-        <p>Este portafolio vio la luz gracias a</p>
-        <p>
-          <strong>HTML</strong>, <strong>CSS</strong>,
-          <strong>JavaScript Vanilla</strong> y <strong>Github Pages</strong> 🚀
-        </p>
-        <p class="version">
-          <span id="date"></span>
-          &#8226;
-          <a
-            href="https://github.com/sebatstian-web/Portafolio"
-            target="_blank"
-            rel="noopener noreferrer"
-            >versión 1.0.0</a
-          >
-        </p>
-      </div>
-    </footer>
-
-    <script src="./js/app.js" type="module"></script>
   </body>
 </html>
