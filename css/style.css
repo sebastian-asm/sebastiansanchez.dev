@@ -21,6 +21,16 @@ body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--colorPrimary);
   background-image: url('../assets/dot.svg');
+  animation: move 50s infinite linear;
+}
+
+@keyframes move {
+  from {
+    background-position: left top;
+  }
+  to {
+    background-position: right bottom;
+  }
 }
 
 a {
@@ -109,6 +119,15 @@ main {
 
 .info__data-rrss svg:hover {
   stroke: var(--colorAccent);
+}
+
+small {
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 1.5rem;
+  color: #475569;
+  font-weight: bold;
+  text-align: right;
 }
 
 @media (min-width: 768px) {
