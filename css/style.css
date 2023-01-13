@@ -22,6 +22,7 @@ body {
   background-color: var(--colorPrimary);
   background-image: url('../assets/dot.svg');
   animation: move 50s infinite linear;
+  margin: var(--fontBase) 0;
 }
 
 @keyframes move {
@@ -131,6 +132,10 @@ small {
 }
 
 @media (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
   .info {
     flex-direction: row;
   }
