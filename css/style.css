@@ -107,12 +107,12 @@ main {
 
 .info__data p a strong {
   transition: all 0.3s;
-  border-bottom: 0.1px dashed;
+  border-bottom: 0.5px dashed;
 }
 
 .info__data p a strong:hover {
   color: var(--colorAccent);
-  border-bottom: 1px dashed;
+  border-bottom: 0.5px dashed;
 }
 
 .info__data-rrss {
