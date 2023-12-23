@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sebastiansanchez.dev/sitemap.xml
+Sitemap: https://sebastiansanchez-dev.vercel.app/sitemap.xml
