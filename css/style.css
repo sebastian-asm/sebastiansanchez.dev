@@ -92,8 +92,10 @@ main {
   font-size: calc(var(--fontBase) * 2.2);
   margin-bottom: 3rem;
   line-height: 4rem;
-  color: var(--colorAccent);
   font-weight: bold;
+  background-image: linear-gradient(60deg, var(--colorAccent), #a2ca6b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .info__data p {
@@ -138,6 +140,33 @@ small {
   color: #475569;
   font-weight: bold;
   text-align: right;
+}
+
+.loading {
+  stroke: var(--colorLight);
+  animation: loading 1.5s linear infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 768px) {
